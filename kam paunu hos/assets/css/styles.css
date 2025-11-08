@@ -1,0 +1,22 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: 'Segoe UI', Arial; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height:100vh; }
+.top-nav { background: rgba(0,0,0,0.9); padding: 15px; display: flex; justify-content: space-between; align-items: center; color: white; position: fixed; top: 0; width: 100%; z-index: 1000; }
+.logo h1 a { color: #667eea; text-decoration: none; font-size: 30px; }
+.nav-links a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+.search-bar input { padding: 10px; width: 300px; border-radius: 25px; border: none; }
+.container { margin-top: 80px; padding: 30px; max-width: 1200px; margin-left: auto; margin-right: auto; background: rgba(255,255,255,0.95); border-radius: 20px; }
+.job-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+.job-card { background: white; padding: 20px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); transition: 0.3s; }
+.job-card:hover { transform: translateY(-10px); }
+.job-card img { width: 100%; height: 150px; object-fit: cover; border-radius: 10px; }
+.btn, button, a { background: #667eea; color: white; padding: 12px 25px; border-radius: 50px; text-decoration: none; display: inline-block; margin: 10px 0; font-weight: bold; }
+.form-container { background: white; padding: 30px; border-radius: 20px; max-width: 500px; margin: 0 auto; box-shadow: 0 10px 30px rgba(0,0,0,0.2); }
+input, textarea, select { width: 100%; padding: 15px; margin: 10px 0; border: 2px solid #667eea; border-radius: 10px; }
+.footer { text-align: center; padding: 20px; background: rgba(0,0,0,0.8); color: white; position: fixed; bottom: 0; width: 100%; }
+body { background: #f8f9fa; font-family: 'Poppins', sans-serif; }
+.hero { background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../assets/images/hero-bg.jpg') center/cover !important; }
+.hover-card { transition: 0.4s; }
+.hover-card:hover { transform: translateY(-10px); box-shadow: 0 20px 40px rgba(0,0,0,0.2) !important; }
+.card-img-top { border-radius: 15px 15px 0 0; }
+.btn { border-radius: 50px; }
+.navbar { box-shadow: 0 5px 20px rgba(0,0,0,0.3); }
