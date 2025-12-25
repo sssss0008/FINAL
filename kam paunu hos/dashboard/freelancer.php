@@ -1,29 +1,33 @@
-<?php include '../header.php'; redirect_if_not_logged_in(); 
-if($_SESSION['user']['role']!='freelancer') header('Location: ../login.php');
+<?php
+include '../header.php'; 
+redirect_if_not_logged_in(); 
+if($_SESSION['user']['role'] != 'freelancer') header('Location: ../login.php');
 $u = $_SESSION['user'];
-?>
-<h1>Freelancer Dashboard - <?php echo $u['name']; ?></h1>
+include '../recommend.php';
 
-<div class="row mb-5">
-    <div class="col-md-4">
-        <div class="card text-white bg-info">
-            <div class="card-body">
-                <h5>Bids Placed</h5>
-                <h2><?php echo mysqli_num_rows(mysqli_query($conn, "SELECT * FROM bids WHERE freelancer_id=".$u['id'])); ?></h2>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <div class="card text-white bg-success">
-            <div class="card-body">
-                <h5>Jobs Won</h5>
-                <h2><?php echo mysqli_num_rows(mysqli_query($conn, "SELECT * FROM bids WHERE freelancer_id=".$u['id']." AND status='paid'")); ?></h2>
-            </div>
-        </div>
-    </div>
-</div>
+$recommendations = recommendJobs($conn, $u['id']);
+?>
 
 <h2>Recommended Jobs For You</h2>
-<?php include '../index.php'; ?>
+<div class="row">
+    <?php foreach($recommendations as $rec): $j = $rec['job']; ?>
+        <div class="col-md-6 mb-4">
+            <div class="card border-<?php echo $rec['badge']=='bg-success'?'success':($rec['badge']=='bg-warning'?'warning':'secondary'); ?>">
+                <div class="card-header">
+                    <span class="badge <?php echo $rec['badge']; ?>">
+                        <?php echo $rec['match_level']; ?> Match (Score: <?php echo $rec['score']; ?>)
+                    </span>
+                </div>
+                <div class="card-body">
+                    <h5><?php echo htmlspecialchars($j['title']); ?></h5>
+                    <p>Rs. <?php echo number_format($j['budget']); ?> | <?php echo $j['category']; ?></p>
+                    <a href="../jobs/job_details.php?id=<?php echo $j['id']; ?>" class="btn btn-primary">View & Bid</a>
+                </div>
+            </div>
+        </div>
+    <?php endforeach; ?>
+</div>
 
-<?php include '../footer.php'; ?>
+<!-- If you want ALL JOBS fallback (optional) -->
+<h2 class="mt-5">All Available Jobs</h2>
+<!-- ... copy your all-jobs loop from previous freelancer.php ... -->

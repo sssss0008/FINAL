@@ -1,62 +1,57 @@
-<?php 
+<?php
 include '../config.php';
 redirect_if_not_logged_in();
 
-$bid_id = intval($_GET['bid']);
-$bid = mysqli_fetch_assoc(mysqli_query($conn, "SELECT b.*, j.budget, j.title FROM bids b JOIN jobs j ON b.job_id=j.id WHERE b.id=$bid_id"));
-if(!$bid || $bid['status'] != 'pending') die("Invalid bid!");
+// Example bid fetch (replace with your real logic)
+$bid_id = intval($_GET['bid'] ?? 0);
+$bid = $conn->query("SELECT b.amount, j.title FROM bids b JOIN jobs j ON b.job_id = j.id WHERE b.id = $bid_id")->fetch_assoc();
+if (!$bid) die("Invalid bid");
 
-$amount = $bid['amount'];
-$transaction_uuid = "KAMP-" . time() . "-" . $bid_id;
-$product_code = "EPAYTEST";
-$secret_key = "8gBm/:&EnhH.1/q(";  // OFFICIAL TEST SECRET
+$amount = (float)$bid['amount'];
+$tax_amount = 0;
+$service_charge = 0;
+$delivery_charge = 0;
+$total_amount = $amount + $tax_amount + $service_charge + $delivery_charge;
 
-// OFFICIAL eSEWA SIGNATURE METHOD (2025)
-$message = "total_amount={$amount},transaction_uuid={$transaction_uuid},product_code={$product_code}";
-$signature = base64_encode(hash_hmac('sha256', $message, $secret_key, true));
+// MUST BE UNIQUE EVERY TIME (very important!)
+$transaction_uuid = "KAMP-" . time() . "-" . uniqid();
 
-// SUCCESS & FAILURE URL
-$success_url = BASE_URL . "/payments/esewa_success.php?bid={$bid_id}";
-$failure_url = BASE_URL . "/payments/esewa_failure.php";
+// Mandatory signed fields - EXACT order, no spaces after commas
+$signed_field_names = "total_amount,transaction_uuid,product_code";
 
-mysqli_query($conn, "INSERT INTO payments (bid_id, transaction_uuid, amount, status) VALUES ($bid_id, '$transaction_uuid', $amount, 'pending')");
+// The message for signature - EXACT format
+$message = "total_amount=$total_amount,transaction_uuid=$transaction_uuid,product_code=" . ESEWA_PRODUCT_CODE;
+
+// Generate HMAC SHA256 signature (raw binary)
+$signature_raw = hash_hmac('sha256', $message, ESEWA_SECRET_KEY, true);
+// Convert to base64
+$signature = base64_encode($signature_raw);
 ?>
 
 <!DOCTYPE html>
 <html>
 <head>
     <title>Redirecting to eSewa...</title>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
-    <div style="text-align:center; margin-top:100px;">
-        <h2>Redirecting to eSewa...</h2>
-        <p>Please wait</p>
-    </div>
+    <h3>Redirecting to eSewa secure payment...</h3>
 
-    <form action="https://rc-epay.esewa.com.np/api/epay/main/v2/form" method="POST" id="esewaForm">
+    <form id="esewaForm" action="<?php echo ESEWA_URL; ?>" method="POST">
         <input type="hidden" name="amount" value="<?php echo $amount; ?>">
-        <input type="hidden" name="tax_amount" value="0">
-        <input type="hidden" name="total_amount" value="<?php echo $amount; ?>">
+        <input type="hidden" name="tax_amount" value="<?php echo $tax_amount; ?>">
+        <input type="hidden" name="total_amount" value="<?php echo $total_amount; ?>">
         <input type="hidden" name="transaction_uuid" value="<?php echo $transaction_uuid; ?>">
-        <input type="hidden" name="product_code" value="<?php echo $product_code; ?>">
-        <input type="hidden" name="product_service" value="">
-        <input type="hidden" name="product_delivery" value="">
-        <input type="hidden" name="success_url" value="<?php echo $success_url; ?>">
-        <input type="hidden" name="failure_url" value="<?php echo $failure_url; ?>">
-        <input type="hidden" name="signed_field_names" value="total_amount,transaction_uuid,product_code">
+        <input type="hidden" name="product_code" value="<?php echo ESEWA_PRODUCT_CODE; ?>">
+        <input type="hidden" name="product_service_charge" value="<?php echo $service_charge; ?>">
+        <input type="hidden" name="product_delivery_charge" value="<?php echo $delivery_charge; ?>">
+        <input type="hidden" name="success_url" value="<?php echo SUCCESS_URL; ?>">
+        <input type="hidden" name="failure_url" value="<?php echo FAILURE_URL; ?>">
+        <input type="hidden" name="signed_field_names" value="<?php echo $signed_field_names; ?>">
         <input type="hidden" name="signature" value="<?php echo $signature; ?>">
     </form>
 
     <script>
         document.getElementById('esewaForm').submit();
-        Swal.fire({
-            title: 'Redirecting...',
-            text: 'Opening eSewa payment gateway',
-            icon: 'info',
-            timer: 3000,
-            showConfirmButton: false
-        });
     </script>
 </body>
 </html>

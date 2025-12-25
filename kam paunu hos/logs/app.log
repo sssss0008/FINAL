@@ -1,0 +1,324 @@
+[09-Nov-2025 07:27:25 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\kam paunu hos\config.php:32
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\config.php(32): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'kamp')
+#1 C:\xampp\htdocs\kam paunu hos\header.php(14): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kam paunu hos\index.php(1): include('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\config.php on line 32
+[10-Nov-2025 06:33:27 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'kamp.categories' doesn't exist in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php:109
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\admin.php(109): mysqli->query('SELECT * FROM c...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php on line 109
+[10-Nov-2025 06:33:37 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'kamp.categories' doesn't exist in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php:109
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\admin.php(109): mysqli->query('SELECT * FROM c...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php on line 109
+[10-Nov-2025 06:33:42 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'kamp.categories' doesn't exist in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php:109
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\admin.php(109): mysqli->query('SELECT * FROM c...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php on line 109
+[10-Nov-2025 06:33:43 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'kamp.categories' doesn't exist in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php:109
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\admin.php(109): mysqli->query('SELECT * FROM c...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php on line 109
+[10-Nov-2025 06:33:48 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'kamp.categories' doesn't exist in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php:109
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\admin.php(109): mysqli->query('SELECT * FROM c...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php on line 109
+[10-Nov-2025 06:34:14 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'kamp.categories' doesn't exist in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php:109
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\admin.php(109): mysqli->query('SELECT * FROM c...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php on line 109
+[10-Nov-2025 06:34:20 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'kamp.categories' doesn't exist in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php:109
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\admin.php(109): mysqli->query('SELECT * FROM c...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php on line 109
+[10-Nov-2025 06:34:26 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'kamp.categories' doesn't exist in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php:109
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\admin.php(109): mysqli->query('SELECT * FROM c...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php on line 109
+[10-Nov-2025 06:34:28 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'kamp.categories' doesn't exist in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php:109
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\admin.php(109): mysqli->query('SELECT * FROM c...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php on line 109
+[10-Nov-2025 06:34:44 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'kamp.categories' doesn't exist in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php:109
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\admin.php(109): mysqli->query('SELECT * FROM c...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php on line 109
+[10-Nov-2025 06:34:44 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'kamp.categories' doesn't exist in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php:109
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\admin.php(109): mysqli->query('SELECT * FROM c...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php on line 109
+[10-Nov-2025 06:35:38 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'kamp.categories' doesn't exist in C:\xampp\htdocs\kam paunu hos\dashboard\client.php:7
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\client.php(7): mysqli_query(Object(mysqli), 'SELECT j.*, c.n...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\client.php on line 7
+[10-Nov-2025 06:41:07 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'kamp.categories' doesn't exist in C:\xampp\htdocs\kam paunu hos\dashboard\client.php:7
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\client.php(7): mysqli_query(Object(mysqli), 'SELECT j.*, c.n...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\client.php on line 7
+[10-Nov-2025 06:41:16 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'kamp.categories' doesn't exist in C:\xampp\htdocs\kam paunu hos\dashboard\client.php:7
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\client.php(7): mysqli_query(Object(mysqli), 'SELECT j.*, c.n...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\client.php on line 7
+[10-Nov-2025 06:43:19 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'kamp.categories' doesn't exist in C:\xampp\htdocs\kam paunu hos\dashboard\client.php:7
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\client.php(7): mysqli_query(Object(mysqli), 'SELECT j.*, c.n...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\client.php on line 7
+[21-Dec-2025 13:53:26 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\kam paunu hos\config.php:32
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\config.php(32): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'kamp')
+#1 C:\xampp\htdocs\kam paunu hos\header.php(14): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kam paunu hos\index.php(1): include('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\config.php on line 32
+[21-Dec-2025 13:58:45 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'kamp.categories' doesn't exist in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php:109
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\admin.php(109): mysqli->query('SELECT * FROM c...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php on line 109
+[21-Dec-2025 13:58:49 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'kamp.categories' doesn't exist in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php:109
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\admin.php(109): mysqli->query('SELECT * FROM c...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php on line 109
+[21-Dec-2025 13:58:52 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'kamp.categories' doesn't exist in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php:109
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\admin.php(109): mysqli->query('SELECT * FROM c...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php on line 109
+[21-Dec-2025 13:58:54 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'kamp.categories' doesn't exist in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php:109
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\admin.php(109): mysqli->query('SELECT * FROM c...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php on line 109
+[21-Dec-2025 13:58:56 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'kamp.categories' doesn't exist in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php:109
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\admin.php(109): mysqli->query('SELECT * FROM c...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php on line 109
+[21-Dec-2025 13:58:57 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'kamp.categories' doesn't exist in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php:109
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\admin.php(109): mysqli->query('SELECT * FROM c...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php on line 109
+[21-Dec-2025 13:59:04 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'kamp.categories' doesn't exist in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php:109
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\admin.php(109): mysqli->query('SELECT * FROM c...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php on line 109
+[21-Dec-2025 13:59:19 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'kamp.categories' doesn't exist in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php:109
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\admin.php(109): mysqli->query('SELECT * FROM c...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php on line 109
+[21-Dec-2025 14:00:53 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'kamp.categories' doesn't exist in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php:109
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\admin.php(109): mysqli->query('SELECT * FROM c...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php on line 109
+[21-Dec-2025 14:00:59 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'kamp.categories' doesn't exist in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php:109
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\admin.php(109): mysqli->query('SELECT * FROM c...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php on line 109
+[21-Dec-2025 14:01:01 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'kamp.categories' doesn't exist in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php:109
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\admin.php(109): mysqli->query('SELECT * FROM c...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php on line 109
+[21-Dec-2025 14:01:02 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'kamp.categories' doesn't exist in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php:109
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\admin.php(109): mysqli->query('SELECT * FROM c...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php on line 109
+[21-Dec-2025 14:01:10 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'kamp.categories' doesn't exist in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php:12
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\admin.php(12): mysqli->query('INSERT INTO cat...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php on line 12
+[21-Dec-2025 14:02:34 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'created_at' in 'order clause' in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php:146
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\admin.php(146): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php on line 146
+[21-Dec-2025 14:02:34 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'created_at' in 'order clause' in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php:146
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\admin.php(146): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php on line 146
+[21-Dec-2025 14:02:37 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'created_at' in 'order clause' in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php:146
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\admin.php(146): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php on line 146
+[21-Dec-2025 14:02:48 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'created_at' in 'order clause' in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php:146
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\admin.php(146): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php on line 146
+[21-Dec-2025 14:02:51 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'created_at' in 'order clause' in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php:146
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\admin.php(146): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php on line 146
+[21-Dec-2025 14:02:52 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'created_at' in 'order clause' in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php:146
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\admin.php(146): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php on line 146
+[21-Dec-2025 14:02:53 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'created_at' in 'order clause' in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php:146
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\admin.php(146): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php on line 146
+[21-Dec-2025 14:02:55 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'created_at' in 'order clause' in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php:146
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\admin.php(146): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php on line 146
+[21-Dec-2025 14:02:56 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'created_at' in 'order clause' in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php:146
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\admin.php(146): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php on line 146
+[21-Dec-2025 14:03:59 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'created_at' in 'order clause' in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php:146
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\admin.php(146): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php on line 146
+[21-Dec-2025 14:04:08 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'created_at' in 'order clause' in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php:146
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\admin.php(146): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\admin.php on line 146
+[21-Dec-2025 14:10:39 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'j.category_id' in 'on clause' in C:\xampp\htdocs\kam paunu hos\dashboard\client.php:7
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\client.php(7): mysqli_query(Object(mysqli), 'SELECT j.*, c.n...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\client.php on line 7
+[21-Dec-2025 14:20:50 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'j.category_id' in 'on clause' in C:\xampp\htdocs\kam paunu hos\dashboard\client.php:7
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\client.php(7): mysqli_query(Object(mysqli), 'SELECT j.*, c.n...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\client.php on line 7
+[21-Dec-2025 14:20:51 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'j.category_id' in 'on clause' in C:\xampp\htdocs\kam paunu hos\dashboard\client.php:7
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\client.php(7): mysqli_query(Object(mysqli), 'SELECT j.*, c.n...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\client.php on line 7
+[21-Dec-2025 14:22:06 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'j.category_id' in 'on clause' in C:\xampp\htdocs\kam paunu hos\dashboard\client.php:7
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\client.php(7): mysqli_query(Object(mysqli), 'SELECT j.*, c.n...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\client.php on line 7
+[21-Dec-2025 14:53:06 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'j.category_id' in 'on clause' in C:\xampp\htdocs\kam paunu hos\dashboard\client.php:7
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\client.php(7): mysqli_query(Object(mysqli), 'SELECT j.*, c.n...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\client.php on line 7
+[21-Dec-2025 14:54:38 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'j.category_id' in 'on clause' in C:\xampp\htdocs\kam paunu hos\dashboard\client.php:7
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\client.php(7): mysqli_query(Object(mysqli), 'SELECT j.*, c.n...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\client.php on line 7
+[21-Dec-2025 15:07:30 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'j.category_id' in 'on clause' in C:\xampp\htdocs\kam paunu hos\dashboard\client.php:7
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\client.php(7): mysqli_query(Object(mysqli), 'SELECT j.*, c.n...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\client.php on line 7
+[21-Dec-2025 15:09:28 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'j.category_id' in 'on clause' in C:\xampp\htdocs\kam paunu hos\dashboard\client.php:7
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\dashboard\client.php(7): mysqli_query(Object(mysqli), 'SELECT j.*, c.n...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\dashboard\client.php on line 7
+[21-Dec-2025 15:09:54 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'JOIN users u ON j.client_id = u.id 
+                                 WHERE j...' at line 2 in C:\xampp\htdocs\kam paunu hos\jobs\job_details.php:13
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\jobs\job_details.php(13): mysqli_query(Object(mysqli), 'SELECT j.*, u.n...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\jobs\job_details.php on line 13
+[21-Dec-2025 15:09:59 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'JOIN users u ON j.client_id = u.id 
+                                 WHERE j...' at line 2 in C:\xampp\htdocs\kam paunu hos\jobs\job_details.php:13
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\jobs\job_details.php(13): mysqli_query(Object(mysqli), 'SELECT j.*, u.n...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\jobs\job_details.php on line 13
+[21-Dec-2025 15:10:29 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'JOIN users u ON j.client_id = u.id 
+                                 WHERE j...' at line 2 in C:\xampp\htdocs\kam paunu hos\jobs\job_details.php:13
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\jobs\job_details.php(13): mysqli_query(Object(mysqli), 'SELECT j.*, u.n...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\jobs\job_details.php on line 13
+[21-Dec-2025 15:12:04 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'JOIN users u ON j.client_id = u.id 
+                                 WHERE j...' at line 2 in C:\xampp\htdocs\kam paunu hos\jobs\job_details.php:13
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\jobs\job_details.php(13): mysqli_query(Object(mysqli), 'SELECT j.*, u.n...')
+#1 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\jobs\job_details.php on line 13
+[21-Dec-2025 15:17:23 Asia/Kathmandu] PHP Warning:  move_uploaded_file(../uploads/1766309543_44.jpg): Failed to open stream: No such file or directory in C:\xampp\htdocs\kam paunu hos\jobs\post_job.php on line 11
+[21-Dec-2025 15:17:23 Asia/Kathmandu] PHP Warning:  move_uploaded_file(): Unable to move &quot;C:\xampp\tmp\phpE3C6.tmp&quot; to &quot;../uploads/1766309543_44.jpg&quot; in C:\xampp\htdocs\kam paunu hos\jobs\post_job.php on line 11
+[22-Dec-2025 07:24:08 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\kam paunu hos\config.php:32
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\config.php(32): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'kamp')
+#1 C:\xampp\htdocs\kam paunu hos\header.php(14): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kam paunu hos\index.php(1): include('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\config.php on line 32
+[22-Dec-2025 07:26:41 Asia/Kathmandu] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=24828 in C:\xampp\htdocs\kam paunu hos\config.php on line 32
+[22-Dec-2025 07:26:41 Asia/Kathmandu] PHP Fatal error:  Uncaught mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\kam paunu hos\config.php:32
+Stack trace:
+#0 C:\xampp\htdocs\kam paunu hos\config.php(32): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'kamp')
+#1 C:\xampp\htdocs\kam paunu hos\header.php(14): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kam paunu hos\index.php(1): include('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\config.php on line 32
+[24-Dec-2025 20:12:53 Asia/Kathmandu] PHP Warning:  mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\kam paunu hos\config.php on line 32
+[24-Dec-2025 20:12:53 Asia/Kathmandu] Database connection failed: No connection could be made because the target machine actively refused it
+[24-Dec-2025 20:15:17 Asia/Kathmandu] PHP Warning:  mysqli::__construct(): (HY000/1049): Unknown database 'kamp' in C:\xampp\htdocs\kam paunu hos\config.php on line 32
+[24-Dec-2025 20:15:17 Asia/Kathmandu] Database connection failed: Unknown database 'kamp'
+[24-Dec-2025 20:15:20 Asia/Kathmandu] PHP Warning:  mysqli::__construct(): (HY000/1049): Unknown database 'kamp' in C:\xampp\htdocs\kam paunu hos\config.php on line 32
+[24-Dec-2025 20:15:20 Asia/Kathmandu] Database connection failed: Unknown database 'kamp'
+[24-Dec-2025 20:15:21 Asia/Kathmandu] PHP Warning:  mysqli::__construct(): (HY000/1049): Unknown database 'kamp' in C:\xampp\htdocs\kam paunu hos\config.php on line 32
+[24-Dec-2025 20:15:21 Asia/Kathmandu] Database connection failed: Unknown database 'kamp'
+[24-Dec-2025 20:15:22 Asia/Kathmandu] PHP Warning:  mysqli::__construct(): (HY000/1049): Unknown database 'kamp' in C:\xampp\htdocs\kam paunu hos\config.php on line 32
+[24-Dec-2025 20:15:22 Asia/Kathmandu] Database connection failed: Unknown database 'kamp'
+[24-Dec-2025 20:15:22 Asia/Kathmandu] PHP Warning:  mysqli::__construct(): (HY000/1049): Unknown database 'kamp' in C:\xampp\htdocs\kam paunu hos\config.php on line 32
+[24-Dec-2025 20:15:22 Asia/Kathmandu] Database connection failed: Unknown database 'kamp'
+[24-Dec-2025 20:15:22 Asia/Kathmandu] PHP Warning:  mysqli::__construct(): (HY000/1049): Unknown database 'kamp' in C:\xampp\htdocs\kam paunu hos\config.php on line 32
+[24-Dec-2025 20:15:22 Asia/Kathmandu] Database connection failed: Unknown database 'kamp'
+[24-Dec-2025 20:15:30 Asia/Kathmandu] PHP Warning:  mysqli::__construct(): (HY000/1049): Unknown database 'kamp' in C:\xampp\htdocs\kam paunu hos\config.php on line 32
+[24-Dec-2025 20:15:30 Asia/Kathmandu] Database connection failed: Unknown database 'kamp'
+[24-Dec-2025 20:19:05 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected token "*", expecting variable or "{" or "$" in C:\xampp\htdocs\kam paunu hos\recommend.php on line 93
+[24-Dec-2025 20:22:59 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected token "*", expecting variable or "{" or "$" in C:\xampp\htdocs\kam paunu hos\recommend.php on line 93
+[24-Dec-2025 20:23:18 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected token "*", expecting variable or "{" or "$" in C:\xampp\htdocs\kam paunu hos\recommend.php on line 93
+[24-Dec-2025 20:31:21 Asia/Kathmandu] PHP Warning:  Undefined array key "created_at" in C:\xampp\htdocs\kam paunu hos\jobs\job_details.php on line 124
+[24-Dec-2025 20:34:01 Asia/Kathmandu] PHP Warning:  Undefined array key "created_at" in C:\xampp\htdocs\kam paunu hos\jobs\job_details.php on line 124
+[24-Dec-2025 20:34:03 Asia/Kathmandu] PHP Warning:  Undefined array key "created_at" in C:\xampp\htdocs\kam paunu hos\jobs\job_details.php on line 124
+[24-Dec-2025 20:34:54 Asia/Kathmandu] PHP Warning:  Undefined array key "created_at" in C:\xampp\htdocs\kam paunu hos\dashboard\client.php on line 97
+[24-Dec-2025 20:38:03 Asia/Kathmandu] PHP Warning:  Undefined array key "created_at" in C:\xampp\htdocs\kam paunu hos\jobs\job_details.php on line 124
+[24-Dec-2025 21:26:43 Asia/Kathmandu] PHP Warning:  move_uploaded_file(../uploads/1766590903_Blue and White Simple Entrepreneurs YouTube Thumbnail.jpg): Failed to open stream: No such file or directory in C:\xampp\htdocs\kam paunu hos\jobs\post_job.php on line 11
+[24-Dec-2025 21:26:43 Asia/Kathmandu] PHP Warning:  move_uploaded_file(): Unable to move &quot;C:\xampp\tmp\phpDBE2.tmp&quot; to &quot;../uploads/1766590903_Blue and White Simple Entrepreneurs YouTube Thumbnail.jpg&quot; in C:\xampp\htdocs\kam paunu hos\jobs\post_job.php on line 11
+[24-Dec-2025 21:28:33 Asia/Kathmandu] PHP Warning:  move_uploaded_file(../uploads/1766591013_Blue and White Simple Entrepreneurs YouTube Thumbnail.jpg): Failed to open stream: No such file or directory in C:\xampp\htdocs\kam paunu hos\jobs\post_job.php on line 11
+[24-Dec-2025 21:28:33 Asia/Kathmandu] PHP Warning:  move_uploaded_file(): Unable to move &quot;C:\xampp\tmp\php8A10.tmp&quot; to &quot;../uploads/1766591013_Blue and White Simple Entrepreneurs YouTube Thumbnail.jpg&quot; in C:\xampp\htdocs\kam paunu hos\jobs\post_job.php on line 11
+[24-Dec-2025 21:33:32 Asia/Kathmandu] PHP Warning:  move_uploaded_file(../uploads/1766591312_Blue and White Simple Entrepreneurs YouTube Thumbnail.jpg): Failed to open stream: No such file or directory in C:\xampp\htdocs\kam paunu hos\jobs\post_job.php on line 11
+[24-Dec-2025 21:33:32 Asia/Kathmandu] PHP Warning:  move_uploaded_file(): Unable to move &quot;C:\xampp\tmp\php17E6.tmp&quot; to &quot;../uploads/1766591312_Blue and White Simple Entrepreneurs YouTube Thumbnail.jpg&quot; in C:\xampp\htdocs\kam paunu hos\jobs\post_job.php on line 11
+[24-Dec-2025 22:06:29 Asia/Kathmandu] PHP Fatal error:  Uncaught Error: Undefined constant "ESEWA_PRODUCT_CODE" in C:\xampp\htdocs\kam paunu hos\payments\pay_esewa.php:23
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\kam paunu hos\payments\pay_esewa.php on line 23
